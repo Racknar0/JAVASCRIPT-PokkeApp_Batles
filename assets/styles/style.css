@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Pokemon';
+    src: url('../fonts/Pokemon\ Solid.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.bg_main{
+    width: 100%;
+    /* sleccionar el minimo entre dos */
+    height: max(100vh, 100%);
+    background-image: url(../img/pikachu.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.title_container{
+    background-color: rgb(245, 189, 6);
+    min-height: 120px;
+    padding: 10px;
+}
+
+.resume_batles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.resume_batles h2{
+    font-size: 20px;
+    margin: 0 0 0 0;
+}
+
+.main_title_contaner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title_container img{
+    width: 40px;
+    height:  40px;
+    object-fit: cover;
+    
+}
+
+.title_container img:nth-child(1){
+    animation: spinRigth 1s infinite linear;
+}
+
+.title_container img:nth-child(3){
+    animation: spinLeft 1s infinite linear;
+
+}
+
+
+.title {
+    font-family: 'Pokemon';
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.imgPrincipal {
+    display: flex;
+    margin: auto auto;
+}
+
+.box_shadow_container{
+    max-width: 500px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    display: block;
+    margin: 40px auto;
+}
+
+.box_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.question{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.input_select {
+    width: 200px;
+}
+
+.btnGuardar {
+    background-color: blue;
+
+}
+
+
+.input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.win{
+    color: green;
+}
+
+.lose{
+    color: red;
+}
+
+.water_type{
+    color: blue;
+}
+
+.fire_type{
+    color: red;
+}
+
+.grass_type{
+    color: green;
+}
+
+@keyframes spinRigth {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+@keyframes spinLeft {
+    from {
+    transform: rotate(360deg);
+    }
+    to {
+    transform: rotate(0deg);
+    }
+}
