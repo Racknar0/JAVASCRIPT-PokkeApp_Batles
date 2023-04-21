@@ -25,7 +25,7 @@
 
 <h3>🚀 Deploy link: </h3>
 
-> 🌎 [DEPLOY LINK](https://img-finder-pwa.netlify.app/ 'DEPLOY LINK')
+> 🌎 [DEPLOY LINK](https://pokeapp-battles.netlify.app 'DEPLOY LINK')
 
 <img src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/rainbow.png" alt="css3" width="100%" height="6" />
 
